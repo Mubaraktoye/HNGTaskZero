@@ -6,7 +6,6 @@ namespace HNG12API.Controllers
 {
     [ApiController]
     [Route("api/hng12")]
-    //[EnableCors("AllowAll")] // Enable CORS
     public class HNG12Controller : ControllerBase
     {
         [HttpGet]
@@ -14,9 +13,9 @@ namespace HNG12API.Controllers
         {
             var response = new
             {
-                email = "your-email@example.com", // Replace with your HNG12 email
-                current_datetime = DateTime.UtcNow.ToString("o"), // ISO 8601 format
-                github_url = "https://github.com/yourusername/your-repo" // Replace with your GitHub repo URL
+                email = "mubaraktoye@hotmail.com", 
+                current_datetime = DateTime.UtcNow.ToString("o"),
+                github_url = "https://github.com/Mubaraktoye/HNGTaskZero"
             };
             return Ok(response);
         }
