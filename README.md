@@ -1,6 +1,6 @@
 # HNG12 Public API
 
-This is a simple ASP.NET Core Web API for the HNG12 program. It provides a public endpoint that returns JSON data containing the registered email, the current UTC datetime, and the GitHub repository URL.
+This is a simple ASP.NET Core Web API. It provides a public endpoint that returns JSON data containing the registered email, the current UTC datetime, and the GitHub repository URL.
 
 ## Features
 
@@ -23,7 +23,8 @@ This is a simple ASP.NET Core Web API for the HNG12 program. It provides a publi
 ### Response Format (200 OK)
 
 ```
-json
+sample
+json 
 {
   "email": "HNG@example.com",
   "current_datetime": "2025-01-30T09:30:00Z",
@@ -53,13 +54,10 @@ json
 
 ## Deployment
 
-- The API is deployed at: `https://your-deployment-url.com/api/hng12`
+- The API is deployed at: `https://hngtaskzero-klj1.onrender.com/api/hng12`
 
 ## Additional Resources
 
 - [HNG12 C# Developers](https://hng.tech/hire/csharp-developers)
 
-## License
-
-This project is open-source and available under the MIT License.
 
