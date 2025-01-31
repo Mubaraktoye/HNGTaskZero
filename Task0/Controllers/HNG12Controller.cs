@@ -13,7 +13,7 @@ namespace HNG12API.Controllers
         {
             var response = new
             {
-                email = "mubaraktoye@hotmail.com", 
+                email = "mubaraktoye@gmail.com", 
                 current_datetime = DateTime.UtcNow.ToString("o"),
                 github_url = "https://github.com/Mubaraktoye/HNGTaskZero"
             };
